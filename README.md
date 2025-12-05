@@ -1,17 +1,71 @@
-# React + Vite
+# Autores
+- Gustavo Kim Alcantara, 820763
+- Gustavo Borguetti Daré, 818723
+- Murilo Eduardo Feijó Ramos, 824389
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Onde Estacionei?
 
-Currently, two official plugins are available:
+Este é um projeto de uma aplicação web para ajudar usuários a salvarem e encontrarem a localização de onde estacionaram seus veículos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Sobre o Projeto
 
-## React Compiler
+A aplicação "Onde Estacionei?" foi desenvolvida para resolver um problema comum: esquecer onde você estacionou seu carro. Com uma interface simples e intuitiva, o usuário pode salvar a localização atual do seu veículo e, posteriormente, visualizá-la em um mapa para encontrá-lo facilmente.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- **Salvar Localização:** Permite que o usuário salve as coordenadas geográficas de onde estacionou.
+- **Visualização no Mapa:** Mostra a localização salva em um mapa interativo.
+- **Histórico de Estacionamento:** Mantém um registro dos locais onde o usuário estacionou anteriormente.
+- **Design Responsivo:** A interface se adapta a diferentes tamanhos de tela, funcionando em desktops e dispositivos móveis.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# OndeEstacionei-DSW2-React
+## 🚀 Tecnologias Utilizadas
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Leaflet](https://leafletjs.com/) & [React-Leaflet](https://react-leaflet.js.org/)
+- [React Router](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/)
+
+## 🏁 Começando
+
+Siga as instruções abaixo para executar o projeto em seu ambiente de desenvolvimento local.
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/en/) (versão 18 ou superior)
+- [npm](https://www.npmjs.com/) (geralmente vem com o Node.js)
+
+### Instalação
+
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/onde-estacionei-react.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```sh
+   cd onde-estacionei-react
+   ```
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
+
+### Executando o Projeto
+
+Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
+
+```sh
+npm run dev
+```
+
+Abra [http://localhost:5173](http://localhost:5173) (ou o endereço indicado no seu terminal) no seu navegador para ver a aplicação.
+
+## 📜 Scripts Disponíveis
+
+No diretório do projeto, você pode executar:
+
+- `npm run dev`: Inicia a aplicação em modo de desenvolvimento.
+- `npm run build`: Compila a aplicação para produção na pasta `dist`.
+- `npm run lint`: Executa o linter para verificar a qualidade do código.
+- `npm run preview`: Inicia um servidor local para visualizar a versão de produção.
